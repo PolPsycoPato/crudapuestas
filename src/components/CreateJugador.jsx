@@ -10,8 +10,6 @@ export default class CreateJugador extends Component {
   cajaPais = React.createRef();
   cajaIdequipo = React.createRef();
 
-
-  
   createJugadores = (e) => {
     e.preventDefault();
     let request = "/api/Jugadores";
